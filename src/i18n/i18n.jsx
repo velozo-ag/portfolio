@@ -14,7 +14,7 @@ i18n.use(Backend)
             escapeValue: false,
         },
         backend: {
-            loadPath: "/portfolio/locales/{{lng}}/translation.json", // Asegúrate de que esta ruta es correcta
+            loadPath: "/locales/{{lng}}/translation.json", // Asegúrate de que esta ruta es correcta
         },
     });
 
