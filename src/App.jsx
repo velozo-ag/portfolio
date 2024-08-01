@@ -15,11 +15,11 @@ function App() {
     const { t } = useTranslation();
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="portfolio">
             <div className="App">
                 <Navbar />
                 <main>
-                    <Routes>
+                    <Routes basename="portfolio">
                         <Route path="/" element={<Home />}></Route>
                         <Route path="/about" element={<AboutSection />}></Route>
                         <Route

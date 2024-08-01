@@ -26,13 +26,13 @@
     .arrow::before {
         position: absolute;
         content: "";
-        transform: translate(0, 0.5rem);
+        transform: translate(.5rem, 0.5rem);
     }
 
     .arrow::after {
         position: absolute;
         content: "";
-        transform: translate(-1rem, -0.5rem);
+        transform: translate(-.5rem, -0.5rem);
     }
 
     .content {

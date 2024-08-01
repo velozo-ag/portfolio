@@ -224,7 +224,7 @@
                     justify-content: space-between;
 
                     p {
-                        /* margin: 0 15px; */
+                        margin: 0;
                     }
                 }
 
@@ -296,10 +296,5 @@
             grid-template-columns: 1fr;
         }
 
-        .formation {
-            p {
-                margin: 0;
-            }
-        }
     }
 }

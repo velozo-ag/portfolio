@@ -25,12 +25,11 @@ function Contact() {
                             <b>Email </b> {/* <br /> */}
                             agusvelozo04@gmail.com
                         </li>
-                        <li>
+                        {/* <li>
                             <FaPhone />
                             <b>Phone</b>
-                            {/* <br /> */}
                             +54 3482 626653
-                        </li>
+                        </li> */}
                         <li>
                             <FaLocationDot />
                             <b>Corrientes Capital, Argentina</b>

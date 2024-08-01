@@ -59,11 +59,11 @@ function ContactSection() {
                                 <b>Email </b>
                                 agusvelozo04@gmail.com
                             </li>
-                            <li>
+                            {/* <li>
                                 <FaPhone />
                                 <b>Phone</b>
                                 +54 3482 626653
-                            </li>
+                            </li> */}
                             <li>
                                 <FaLocationDot />
                                 <b>Corrientes Capital, Argentina</b>
