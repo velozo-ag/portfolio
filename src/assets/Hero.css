@@ -1,0 +1,305 @@
+.hero {
+    min-height: 75vh;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 10fr 1fr 10fr;
+
+    hr {
+        border: solid 1px var(--text-color);
+        border-radius: 2px;
+        margin: 40px;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-self: end;
+        width: 80%;
+
+        h1 {
+            text-align: end;
+            font-size: 6rem;
+            line-height: 3.5rem;
+            margin: 0;
+
+            span {
+                -webkit-text-stroke: 1px var(--text-color);
+                color: transparent;
+                font-size: 4.5rem;
+                margin-right: 5px;
+            }
+        }
+
+        p {
+            text-align: end;
+            margin: 0;
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+
+        h1:before {
+            position: absolute;
+            content: "Velozo";
+            font-family: "Pinyon Script", cursive;
+            font-weight: 500;
+            font-size: 12rem;
+            letter-spacing: 15px;
+
+            color: var(--background-color);
+            text-shadow: 1px 1px 0 var(--text-color),
+                -1px -1px 0 var(--text-color), 1px -1px 0 var(--text-color),
+                -1px 1px 0 var(--text-color), 1px 0 0 var(--text-color),
+                -1px 0 0 var(--text-color), 0 1px 0 var(--text-color),
+                0 -1px 0 var(--text-color);
+
+            transform: translate(-100px, -20px);
+            z-index: -1;
+        }
+    }
+
+    .aboutInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+
+        width: 70%;
+
+        p {
+            margin: 0;
+        }
+
+        .more-about {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            ul {
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                padding: 0;
+
+                li {
+                    margin-right: 15px;
+                    font-size: 1.2rem;
+                    a {
+                        display: flex;
+                        color: var(--light-text-color);
+                        transition: all 0.2s;
+                    }
+
+                    a:hover {
+                        color: var(--text-color);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.AboutSection {
+    animation: spawn 0.4s cubic-bezier(0.5, 0, 0.5, 1) forwards;
+    width: 100%;
+    max-width: 1200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+
+    .content {
+        width: 80%;
+        min-height: 75vh;
+
+        margin: auto;
+        align-content: center;
+    }
+
+    .title {
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 0;
+        }
+
+        h2 span {
+            position: absolute;
+            /* content: "About Me"; */
+            font-family: "Pinyon Script", cursive;
+            font-weight: 500;
+            font-size: 7rem;
+
+            color: var(--background-color);
+            text-shadow: 1px 1px 0 var(--text-color),
+                -1px -1px 0 var(--text-color), 1px -1px 0 var(--text-color),
+                -1px 1px 0 var(--text-color), 1px 0 0 var(--text-color),
+                -1px 0 0 var(--text-color), 0 1px 0 var(--text-color),
+                0 -1px 0 var(--text-color);
+
+            transform: translate(-65%, -35%);
+            z-index: -1;
+        }
+    }
+
+    .information {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10rem;
+
+        p {
+            margin: 0;
+        }
+
+        .left {
+            p {
+                margin-bottom: 10px;
+            }
+        }
+
+        .right {
+            text-align: end;
+
+            .links {
+                display: flex;
+                align-items: center;
+                justify-content: end;
+
+                ul {
+                    display: flex;
+                    justify-content: center;
+                    list-style: none;
+                    padding: 0;
+
+                    li {
+                        margin-left: 15px;
+                        font-size: 1.2rem;
+                        a {
+                            display: flex;
+                            color: var(--light-text-color);
+                            transition: all 0.2s;
+                        }
+
+                        a:hover {
+                            color: var(--text-color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .divider {
+        width: 60%;
+        border: solid 1px var(--text-color);
+        border-radius: 5px;
+        margin: 5rem auto;
+    }
+
+    .formation {
+        margin-bottom: 3rem;
+
+        h3 {
+            text-align: center;
+            margin: 0;
+        }
+
+        .education {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            /* padding: 0 2rem; */
+            padding: 0 0 1rem 0;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                text-wrap: nowrap;
+
+                margin: 0.5rem 0;
+
+                span {
+                    display: flex;
+                    justify-content: space-between;
+
+                    p {
+                        /* margin: 0 15px; */
+                    }
+                }
+
+                hr {
+                    width: 100%;
+                    height: 1px;
+
+                    border: none;
+                    border-bottom: dotted 1px;
+                    opacity: 0.5;
+                }
+
+                .right {
+                    text-align: end;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .hero {
+        grid-template-columns: 1fr;
+        align-content: center;
+
+        margin: 5rem 0;
+
+        .description {
+            justify-self: center;
+            text-align: center;
+            margin: auto;
+
+            h1,
+            p {
+                text-align: center;
+            }
+
+            h1::before {
+                font-size: 10rem;
+                transform: translate(-50px, -20px);
+            }
+        }
+
+        .aboutInfo {
+            margin: auto;
+            justify-content: center;
+            text-align: center;
+        }
+
+        hr {
+            margin: 25px auto;
+            width: 50%;
+        }
+    }
+
+    .AboutSection {
+        .title {
+            h2 {
+                text-align: center;
+            }
+
+            h2 span {
+                text-wrap: nowrap;
+                transform: translate(-75%, -35%);
+            }
+        }
+
+        .information {
+            grid-template-columns: 1fr;
+        }
+
+        .formation {
+            p {
+                margin: 0;
+            }
+        }
+    }
+}

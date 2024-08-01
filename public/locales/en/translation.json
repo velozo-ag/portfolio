@@ -1,0 +1,46 @@
+{
+    "wId-title": "What I do",
+    "wId-content": "Hi! I'm 20 years old student of a Bachelor's Degree in Information Systems at the Universidad Nacional del Nordeste, at Corrientes, Argentina.<br></br><br></br>Software developer of web applications, with knowledge of programming languages such as JavaScript, C, and Java with object-oriented programming concepts.<br/><br/>Experienced in both Frontend and Backend development, using tools like React, CodeIgniter, MySQL, and Spring Boot.",
+    "wId-content-sm": "Hi! I'm 20 years old student of a Bachelor's Degree in Information Systems at the Universidad Nacional del Nordeste, at Corrientes, Argentina.<br></br><br></br>Software developer, with knowledge of programming languages such as JavaScript, C, and Java, using tools like React, CodeIgniter, MySQL, and Spring Boot.",
+    "wId-more": "more about me >>>",
+
+    "featured-projects-title": "Featured Projects",
+    "roastCafe-content": "A coffee eCommerce platform designed to manage products, users, contacts, and sales.",
+
+    "contact-title": "Get in touch!",
+    "contact-first": "If you have a project in mind or need help with something, do not hesitate to contact me.",
+    "contact-second": "... or you can",
+    "contact-button": "Send me a Message",
+
+    "about-me": {
+        "title": "About Me",
+        "content": "Hi! I'm Agustin Velozo, 20 years old student of a Bachelor's Degree in Information Systems at the Universidad Nacional del Nordeste, at Corrientes, Argentina. <br/><br/>To learn more or discuss about your ideas and opportunities, feel free to contact me. I am aviable to talk about your projects.",
+        "wid-title": "What I do",
+        "wid-content": "Software developer of web applications, with basic knowledge of various programming languages such as JavaScript, C, and Java with object-oriented programming concepts.<br/><br/>I have experience in both Frontend and Backend development, using tools like React, CodeIgniter, MySQL, and Spring Boot.",
+        "contact-button": "contact me"
+    },
+
+    "education": {
+        "title": "Education",
+        "lsi": "Bachelor's Degree in Information Systems",
+        "programador": "University-level Programmer Analyst",
+        "secundaria": "Bachelor of Science in Economics and Administration",
+
+        "title-courses": "Courses",
+        "cursoEgg": "FullStack Web Developer"
+    },
+
+    "getInTouch": {
+        "title": "Get in touch!",
+        "description": "Fill in your information and then press send. I will be in contact with you as soon as possible. Thanks :D.",
+        "contact1": "Hi! My name is ",
+        "input1": "YOUR FULL NAME",
+        "contact2": " and I have an idea about ",
+        "input2": "TELL ME YOUR IDEA",
+        "contact3": ". Reach out to me at ",
+        "input3": "YOUR EMAIL ADDRESS",
+        "contact4": " so we can get started.",
+        "input4": "SEND"
+    }
+
+}

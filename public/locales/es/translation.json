@@ -1,0 +1,46 @@
+{
+    "wId-title": "A que me dedico",
+
+    "wId-content": "Hola! Tengo 20 años y soy estudiande de Licenciatura en Sistemas de Informacion en la Universidad Nacional del Nordeste, Corrientes, Argentina.<br></br><br></br>Desarrollador de Software, con conocimientos de programacion en lenguajes como JAVA, C, y JavaScript.<br/><br/>Con experiencia en Frontend y Backend, haciendo uso de herramientas como React, CodeIgniter, MySQL, y Spring Boot.",
+    "wId-content-sm": "Hola! Tengo 20 años y soy estudiande de Licenciatura en Sistemas de Informacion en la Universidad Nacional del Nordeste, Corrientes, Argentina.<br></br><br></br>Desarrollador de Software, con conocimientos de programacion en lenguajes como JAVA, C, y JavaScript, haciendo uso de herramientas como React, CodeIgniter, MySQL, y Spring Boot.",
+    "wId-more": "mas acerca de mi >>>",
+
+    "featured-projects-title": "Proyectos Destacados",
+    "roastCafe-content": "Plataforma de Ecommerce diseñada y desarrollada para administrar productos, usuarios, mensajes de contactos y estadisticas de ventas.",
+
+    "contact-title": "Contactame!",
+    "contact-first": "Si tienes un proyecto en mente o necesitas ayuda en algo, no dudes en contactarme.",
+    "contact-second": "... tambien puedes",
+    "contact-button": "Enviarme un Mensaje",
+
+    "about-me": {
+        "title": "Acerca de Mi",
+        "content": "Soy Agustin Velozo, tengo 20 años y soy estudiante de Licenciatura en Sistemas de Informacion en la Universidad Nacional del Nordeste, Corrientes, Argentina. <br/><br/> Para saber mas de mi o hablar de ideas u oportunidades, sientete libre de contactarme.",
+        "wid-title": "Que se hacer",
+        "wid-content": "Desarrollador de Software, con conocimiento basico sobre diferentes lenguajes de programacion como JAVA, C, y JavaScript.<br/><br/>Con experiencia en desarrollo Frontend y Backend, haciendo uso de herramientas como React, CodeIgniter, MySQL, y Spring Boot.",
+        "contact-button": "contactame"
+    },
+
+    "education": {
+        "title": "Educacion",
+        "lsi": "Licenciatura en Sistemas de Informacion",
+        "programador": "Analista Programador Universitario",
+        "secundaria": "Bachiller en Economia y Administracion",
+
+        "title-courses": "Cursos",
+        "cursoEgg": "FullStack Web Developer"
+    },
+
+    "getInTouch": {
+        "title": "Contactame!",
+        "description": "Rellena el formulario con tu informacion y luego enviamelo. Estare en contacto contigo lo antes posible. Gracias :D.",
+        "contact1": "Hola! Soy ",
+        "input1": "TU NOMBRE COMPLETO",
+        "contact2": " y tengo una idea sobre ",
+        "input2": "CUENTAME TU IDEA",
+        "contact3": ". Contactame a traves de ",
+        "input3": "TU DIRECCION EMAIL",
+        "contact4": " para comenzar a trabajar.",
+        "input4": "ENVIAR"
+    }
+}
